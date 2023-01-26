@@ -17,9 +17,9 @@ func main() {
 
 	// Create application with options
 	err := wails.Run(&options.App{
-		Title:  "worktime-calc",
+		Title:  "Simple Worktime Calculator",
 		Width:  570,
-		Height: 350,
+		Height: 400,
 		AssetServer: &assetserver.Options{
 			Assets: assets,
 		},
